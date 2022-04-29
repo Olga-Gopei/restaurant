@@ -1,0 +1,54 @@
+.modal {
+  display: none;
+  position: fixed;
+  background-color: rgba(22, 30, 47, 0.7);
+  top: 0;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+#order-table-modal .inner-modal {
+  background-color: rgba(91, 81, 42, 0.85);
+  padding: 20px;
+  width: 30%;
+}
+
+#order-table-modal .inner-modal .text{
+  font-size: 24px;
+}
+
+#order-table-modal .inner-modal p{
+  padding-top: 20px;
+}
+
+#thanks-msg-modal .inner-modal h1{
+  background: #D67E34;
+  color: aliceblue;
+  padding: 20px;
+
+}
+#show-modal{
+  font-weight: 700;
+  font-size: 16px;
+}
+
+#order-table-close{
+  background-color: #D67E34;
+  padding: 0 20px;
+  height: 38px;
+  font-weight: 900;
+}
+
+#userName, #thePhone, #theDate,#theNumb{
+  color: black;
+}
+
+#theNumb{
+  width: 45px;
+}
+
+#theDate{
+margin: 0 20px 20px 0;
+}
